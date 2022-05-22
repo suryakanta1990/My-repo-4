@@ -69,7 +69,18 @@ mc.m2(100)'''
 # mc=myclass()
 # mc.c1(500,600)
 
+#constructor
+class myclass:
+    def __init__(self):
+        print("this is a constructor")
+    def m1(self):
+        print("hello...")
+    def m2(self, x, y):
+        return (x + y)
 
+mc=myclass()
+mc.m1()
+print(mc.m2(10,20))
 
 
 
